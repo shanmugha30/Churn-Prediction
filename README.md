@@ -1,6 +1,6 @@
 # Churn-Prediction
 
-# Problem Statement: Customer Churn prediction means knowing which customers are likely to leave or unsubscribe from your service. For many companies, this is an important prediction. This is because acquiring new customers often costs more than retaining existing ones. Once you’ve identified customers at risk of churn, you need to know exactly what marketing efforts you should make with each customer to maximize their likelihood of staying.
+# Problem Statement: Customer Churn prediction means knowing which customers are likely to leave or unsubscribe from your service. For many companies, this is an important prediction. This is because acquiring new customers often costs more than retaining existing ones.
 
 # Steps involved in the process:
 1. Load Data & Packages for model building & preprocessing
@@ -14,6 +14,9 @@ Now, we are looking at the recall value here because a customer falsely marked a
 
 # Various Algorithms:
 Cross Validation is one of the most important concepts in any type of data modelling. It simply says, try to leave a sample on which you do not train the model and test the model on this sample before finalizing the model.
+
 Reverse Elimination Method or backward selection method to find top 10 features.
+
 Also using various machine learning algorithms to improve the accuracy .
+
 Random Forest classification along with proper Hyper Tunining gives higher recall score.
